@@ -1,0 +1,1 @@
+- teddynote 16분대부터 보기. MCP Use case

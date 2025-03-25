@@ -1,3 +1,4 @@
+
 # Property
 출처: https://www.daleseo.com/python-property/
 
@@ -144,6 +145,7 @@ f()
 ```
 
 # getattr
+
 if가 너무 많아지면 간소화 가능!
 
 ```python
@@ -177,3 +179,21 @@ import my_models as M
 def build_neural_network(model_name):
   return getattr(M, model_name)(args)
 ```
+
+# yield
+```python
+def f_with_yield(num):
+	for i in range(num):
+		print(i)
+		yield i
+
+def f_with_return(num):
+	for i in range(num):
+		print(i)
+		return i
+```
+
+yield를 이해하기 위해선 2가지를 기억
+1. def 밑에있는 코드들이 실행되는게 아니라, **실행할 준비만 하고 generator가 반환된다.**
+2. generator는 **마지막 yield가 실행된 상태를 기억한다.**
+
