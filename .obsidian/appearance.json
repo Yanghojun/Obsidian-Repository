@@ -1,0 +1,9 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "#4a8bc4",
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "color-extend"
+  ],
+  "theme": "moonstone"
+}

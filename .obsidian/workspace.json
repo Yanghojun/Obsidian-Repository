@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "af8ee86a2c34b86f",
+    "type": "split",
+    "children": [
+      {
+        "id": "533a86bb3482c1a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a88e3df24232a22e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Easy딥러닝/기타.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "기타"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc48582ffaf12efe",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca59875e92b516fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fc1f9a8afc96bd7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "f0451570cdd0f463",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "0347d34d6b6056aa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.5
+  },
+  "right": {
+    "id": "807f6a12707a0aea",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e2a3e1b344b8367",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "895936f38c7ca940",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Easy딥러닝/기타.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "기타 의 개요"
+            }
+          },
+          {
+            "id": "c5cee248884a4f87",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "895936f38c7ca940",
+  "lastOpenFiles": [
+    "Pasted image 20250328031510.png",
+    "Python/비동기 프로그래밍.md",
+    "LLM/타사 사례.md",
+    "LLM/MCP (Model Context Protocol).md",
+    "Easy딥러닝/기타.md",
+    "LLM/한국어 문법 어색함 교정 Research.md",
+    "Python/Grammar.md",
+    "LLM",
+    "Python/property.md",
+    "Obsidian 설정.md",
+    "Python/sfs.md",
+    "무제 1",
+    "무제 3",
+    "무제 2",
+    "Python",
+    "Easy딥러닝/무제 1.md",
+    "files",
+    "무제.canvas",
+    "환영합니다!.md",
+    "Easy딥러닝"
+  ]
+}
