@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/타사 사례.md",
+                "file": "Python/Grammar.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "타사 사례"
+              "title": "Grammar"
             }
           }
         ]
@@ -190,17 +190,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9212eb1d5f39573e",
+  "active": "7907553a5b6085a7",
   "lastOpenFiles": [
+    "LLM/MCP (Model Context Protocol).md",
+    "LLM/한국어 문법 어색함 교정 Research.md",
+    "LLM/타사 사례.md",
+    "Python/Grammar.md",
+    "Python/비동기 프로그래밍.md",
+    "Easy딥러닝/기타.md",
     "files/Pasted image 20250328033836.png",
     "files",
     "Pasted image 20250328031510.png",
-    "Python/Grammar.md",
-    "LLM/타사 사례.md",
-    "Python/비동기 프로그래밍.md",
-    "LLM/MCP (Model Context Protocol).md",
-    "LLM/한국어 문법 어색함 교정 Research.md",
-    "Easy딥러닝/기타.md",
     "Python",
     "LLM",
     "Easy딥러닝",

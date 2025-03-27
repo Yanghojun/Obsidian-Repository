@@ -1,4 +1,4 @@
-
+ㄹ
 # Property
 출처: https://www.daleseo.com/python-property/
 
