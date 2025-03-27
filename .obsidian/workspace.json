@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "af8ee86a2c34b86f",
+    "id": "a9670653b9c5b4ca",
     "type": "split",
     "children": [
       {
-        "id": "533a86bb3482c1a5",
+        "id": "e4fb1853cca59006",
         "type": "tabs",
         "children": [
           {
-            "id": "a88e3df24232a22e",
+            "id": "7907553a5b6085a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Easy딥러닝/기타.md",
+                "file": "LLM/타사 사례.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "기타"
+              "title": "타사 사례"
             }
           }
         ]
@@ -37,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bc48582ffaf12efe",
+    "id": "1a5b79320905177d",
     "type": "split",
     "children": [
       {
-        "id": "ca59875e92b516fe",
+        "id": "752a6cc154f9c37c",
         "type": "tabs",
         "children": [
           {
-            "id": "3fc1f9a8afc96bd7",
+            "id": "cb6011e0ad9b6b2a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "f0451570cdd0f463",
+            "id": "941e20c1317a0c4c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "0347d34d6b6056aa",
+            "id": "fbe70c8fab1f6288",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,48 +88,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 300
   },
   "right": {
-    "id": "807f6a12707a0aea",
+    "id": "4c70b75800fe528d",
     "type": "split",
     "children": [
       {
-        "id": "2e2a3e1b344b8367",
+        "id": "207abb2cd3a2ce42",
         "type": "tabs",
         "children": [
           {
-            "id": "895936f38c7ca940",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Easy딥러닝/기타.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "기타 의 개요"
-            }
-          },
-          {
-            "id": "c5cee248884a4f87",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "8fabf276b64582ee",
+            "id": "287d048cf7a871dd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Easy딥러닝/기타.md",
+                "file": "환영합니다!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,25 +114,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "기타 의 백링크"
+              "title": "환영합니다! 의 백링크"
             }
           },
           {
-            "id": "b7bc519e6193ddfe",
+            "id": "f466847bbf324710",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Easy딥러닝/기타.md",
+                "file": "환영합니다!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "기타 의 나가는 링크"
+              "title": "환영합니다! 의 나가는 링크"
             }
           },
           {
-            "id": "058bc5f75e457907",
+            "id": "c05b8acc7e3c9a54",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -170,46 +145,74 @@
               "icon": "lucide-tags",
               "title": "태그"
             }
+          },
+          {
+            "id": "a1cd5a410c545dce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "환영합니다!.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "환영합니다! 의 개요"
+            }
+          },
+          {
+            "id": "9212eb1d5f39573e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 297
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a88e3df24232a22e",
+  "active": "9212eb1d5f39573e",
   "lastOpenFiles": [
     "files/Pasted image 20250328033836.png",
-    "LLM/타사 사례.md",
-    "LLM/한국어 문법 어색함 교정 Research.md",
-    "LLM/MCP (Model Context Protocol).md",
-    "Python/비동기 프로그래밍.md",
-    "Pasted image 20250328031510.png",
-    "Easy딥러닝/기타.md",
-    "Python/Grammar.md",
-    "LLM",
-    "Python/property.md",
-    "Obsidian 설정.md",
-    "Python/sfs.md",
-    "무제 1",
-    "무제 3",
-    "무제 2",
-    "Python",
-    "Easy딥러닝/무제 1.md",
     "files",
-    "무제.canvas",
-    "환영합니다!.md",
-    "Easy딥러닝"
+    "Pasted image 20250328031510.png",
+    "Python/Grammar.md",
+    "LLM/타사 사례.md",
+    "Python/비동기 프로그래밍.md",
+    "LLM/MCP (Model Context Protocol).md",
+    "LLM/한국어 문법 어색함 교정 Research.md",
+    "Easy딥러닝/기타.md",
+    "Python",
+    "LLM",
+    "Easy딥러닝",
+    "Obsidian-Hojun/Python/Grammar.md",
+    "Obsidian-Hojun/Python/비동기 프로그래밍.md",
+    "Obsidian-Hojun/Python",
+    "Obsidian-Hojun/LLM/한국어 문법 어색함 교정 Research.md",
+    "Obsidian-Hojun/LLM/MCP (Model Context Protocol).md",
+    "Obsidian-Hojun/LLM",
+    "Obsidian-Hojun/Easy딥러닝/기타.md",
+    "Obsidian-Hojun/Easy딥러닝",
+    "Obsidian-Hojun",
+    "환영합니다!.md"
   ]
 }
