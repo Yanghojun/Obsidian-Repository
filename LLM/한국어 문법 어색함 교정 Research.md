@@ -2,9 +2,6 @@
 sLLM이 생성한 데이터가 어색한지 여부를 판단하는 Metric 있을거라 생각.
 이런게 있어야, 한국말을 잘 하는 LLM 학습이 가능했을 것.
 이 Metric을 활용해 점수가 낮은 가게 한줄평만 filtering 해서 재추론을 진행하던지 할 수 있을 것.
-
-- ㄴㄻㄹ
-	ㅇㄴㄴㅁ니라널
 # 방법
 1. 한줄평 Task 데이터셋 구축 후 Fine Tuning.
 	- 데이터셋을 어떻게 만들거나 활용하는지? -> [한국어 QA 데이터셋](https://korquad.github.io/category/1.0_KOR.html) 참고

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/비동기 프로그래밍.md",
+                "file": "LLM/한국어 문법 어색함 교정 Research.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "비동기 프로그래밍"
+              "title": "한국어 문법 어색함 교정 Research"
             }
           }
         ]
@@ -191,18 +191,18 @@
   },
   "active": "a88e3df24232a22e",
   "lastOpenFiles": [
+    "Easy딥러닝/기타.md",
+    "LLM/MCP (Model Context Protocol).md",
+    "LLM/한국어 문법 어색함 교정 Research.md",
+    "LLM/타사 사례.md",
+    "Python/비동기 프로그래밍.md",
+    "Python/Grammar.md",
     "검색 (주소 검색).md",
     "files/Pasted image 20250328141750.png",
     "files/Pasted image 20250328134326.png",
     "files/1400_T4_우성민_밑바닥부터 만드는 지도 장소 검색 (네이버지도 인스턴트서치).pdf",
-    "Python/Grammar.md",
-    "LLM/한국어 문법 어색함 교정 Research.md",
-    "LLM/타사 사례.md",
-    "Python/비동기 프로그래밍.md",
     "conflict-files-obsidian-git.md",
-    "Easy딥러닝/기타.md",
     "files/Pasted image 20250328033836.png",
-    "LLM/MCP (Model Context Protocol).md",
     "Pasted image 20250328031510.png",
     "LLM",
     "Python/property.md",
