@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/한국어 문법 어색함 교정 Research.md",
+                "file": "Python/Grammar.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "한국어 문법 어색함 교정 Research"
+              "title": "Grammar"
             }
           }
         ]
@@ -171,8 +171,7 @@
               "title": "태그"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,11 +188,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a88e3df24232a22e",
+  "active": "895936f38c7ca940",
   "lastOpenFiles": [
+    "LLM/한국어 문법 어색함 교정 Research.md",
     "Easy딥러닝/기타.md",
     "LLM/MCP (Model Context Protocol).md",
-    "LLM/한국어 문법 어색함 교정 Research.md",
     "LLM/타사 사례.md",
     "Python/비동기 프로그래밍.md",
     "Python/Grammar.md",

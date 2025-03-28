@@ -196,3 +196,6 @@ yield를 이해하기 위해선 2가지를 기억
 1. def 밑에있는 코드들이 실행되는게 아니라, **실행할 준비만 하고 generator가 반환된다.**
 2. generator는 **마지막 yield가 실행된 상태를 기억한다.**
 
+# FastAPI
+## post
+- fast API가 보낸 post 요청을 받은 함수는 body, 
