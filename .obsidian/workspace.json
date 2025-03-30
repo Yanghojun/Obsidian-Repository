@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/LangChain, LangGraph.md",
+                "file": "Python/비동기 프로그래밍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LangChain, LangGraph"
+              "title": "비동기 프로그래밍"
             }
           }
         ]
@@ -104,13 +104,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM/LangChain, LangGraph.md",
+                "file": "Python/비동기 프로그래밍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LangChain, LangGraph 의 개요"
+              "title": "비동기 프로그래밍 의 개요"
             }
           },
           {
@@ -190,10 +190,10 @@
   },
   "active": "a88e3df24232a22e",
   "lastOpenFiles": [
-    "LLM/타사 사례.md",
     "LLM/LangChain, LangGraph.md",
     "LLM/MCP (Model Context Protocol).md",
     "LLM/한국어 문법 어색함 교정 Research.md",
+    "LLM/타사 사례.md",
     "Python/비동기 프로그래밍.md",
     "Python/Grammar.md",
     "Easy딥러닝/기타.md",
