@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/부동산 ChatBot.md",
+                "file": "Git&Github/기초.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "부동산 ChatBot"
+              "title": "기초"
             }
           }
         ]
@@ -104,13 +104,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM/부동산 ChatBot.md",
+                "file": "Git&Github/기초.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "부동산 ChatBot 의 개요"
+              "title": "기초 의 개요"
             }
           },
           {
@@ -190,15 +190,18 @@
   },
   "active": "a88e3df24232a22e",
   "lastOpenFiles": [
-    "Python/비동기 프로그래밍.md",
+    "Git&Github/merge.md",
+    "Git&Github/기초.md",
     "LLM/부동산 ChatBot.md",
+    "Git&Github",
+    "Python/Grammar.md",
+    "Python/비동기 프로그래밍.md",
     "검색 (주소 검색).md",
+    "Easy딥러닝/기타.md",
+    "LLM/타사 사례.md",
+    "LLM/한국어 문법 어색함 교정 Research.md",
     "LLM/LangChain, LangGraph.md",
     "LLM/MCP (Model Context Protocol).md",
-    "LLM/한국어 문법 어색함 교정 Research.md",
-    "LLM/타사 사례.md",
-    "Python/Grammar.md",
-    "Easy딥러닝/기타.md",
     "files/Pasted image 20250328141750.png",
     "files/Pasted image 20250328134326.png",
     "files/1400_T4_우성민_밑바닥부터 만드는 지도 장소 검색 (네이버지도 인스턴트서치).pdf",
