@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git&Github/기초.md",
+                "file": "Easy딥러닝/기타.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "기초"
+              "title": "기타"
+            }
+          },
+          {
+            "id": "824112da2a127edc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Easy딥러닝/인스톨 파이토치.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "인스톨 파이토치"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git&Github/기초.md",
+                "file": "Easy딥러닝/인스톨 파이토치.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "기초 의 개요"
+              "title": "인스톨 파이토치 의 개요"
             }
           },
           {
@@ -175,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297
+    "width": 297,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,16 +214,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a88e3df24232a22e",
+  "active": "824112da2a127edc",
   "lastOpenFiles": [
-    "Git&Github/merge.md",
+    "Easy딥러닝/기타.md",
+    "Easy딥러닝/인스톨 파이토치.md",
     "Git&Github/기초.md",
+    "Git&Github/merge.md",
     "LLM/부동산 ChatBot.md",
     "Git&Github",
     "Python/Grammar.md",
     "Python/비동기 프로그래밍.md",
     "검색 (주소 검색).md",
-    "Easy딥러닝/기타.md",
     "LLM/타사 사례.md",
     "LLM/한국어 문법 어색함 교정 Research.md",
     "LLM/LangChain, LangGraph.md",
