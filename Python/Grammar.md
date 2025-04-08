@@ -1,4 +1,4 @@
-# Property
+# property
 출처: https://www.daleseo.com/python-property/
 
 사용 이유: **캡슐화**
