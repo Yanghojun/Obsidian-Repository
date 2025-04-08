@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Grammar.md",
+                "file": "검색 (주소 검색).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Grammar"
+              "title": "검색 (주소 검색)"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Grammar.md",
+                "file": "검색 (주소 검색).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Grammar 의 개요"
+              "title": "검색 (주소 검색) 의 개요"
             }
           },
           {
@@ -191,10 +191,10 @@
   },
   "active": "7907553a5b6085a7",
   "lastOpenFiles": [
+    "Python/Grammar.md",
     "Easy딥러닝/인스톨 파이토치.md",
     "Easy딥러닝/기타.md",
     "검색 (주소 검색).md",
-    "Python/Grammar.md",
     "conflict-files-obsidian-git.md",
     "LLM/부동산 ChatBot.md",
     "LLM/LangChain, LangGraph.md",
