@@ -1,1 +1,6 @@
-- teddynote 16분대부터 보기. MCP Use case
+참고: https://www.youtube.com/watch?v=A31X4gdGbKw
+
+
+
+
+
