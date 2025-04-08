@@ -103,8 +103,7 @@ class Person:
 ```
 
 # \*args
-- *(함수 입장에서)* \*args: literal obj 대신 positional args을 받겠다.
-	- 함수 안에선 **Tuple** type이다.
+- *(함수 입장에서)*  positional arg를 받겠다. 길이 제한 없이 받고, 들어오는대로 **Tuple**화 하겠다.
 - *(호출하는 입장에서)* positional args를 넘기겠다.
 ```python
 def f(*args):
@@ -124,7 +123,7 @@ f()  # 함수 내에서 ([1,2,3], ) 인 튜플
 ```
 
 # \*\*kwargs
-- *(함수 선언 시)* \*\*kwargs: keyword args를 받겠다. 길이 제한 없이 받고, keyword는 들어오는대로 Dictionary화 하겠다.
+- *(함수 선언 시)* keyword args를 받겠다. 길이 제한 없이 받고, keyword는 들어오는대로 **Dictionary**화 하겠다.
 - *(호출할 시)* keyword args를 넘기겠다.
 ```python
 def f(**kwargs):
