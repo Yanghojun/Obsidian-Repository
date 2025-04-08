@@ -143,6 +143,8 @@ f()
 ```
 
 # getattr
+- 활용1: 속성 접근
+- 활용2: 객체 초기화
 
 if가 너무 많아지면 간소화 가능!
 
@@ -175,7 +177,12 @@ def build_neural_network(model_name):
 # 아래처럼 간소화된다.
 import my_models as M
 def build_neural_network(model_name):
-  return getattr(M, model_name)(args)
+  return getattr(M, model_name)(args)  # args를 인자로 받은 객체가 return 됌.
+
+# 응용 (중요!)
+import my_models as M
+def build_neural_network(model_name):
+  return getattr(M, model_name)     # 이건 객체가 아니라, 클래스가 return 됌
 ```
 
 # yield
