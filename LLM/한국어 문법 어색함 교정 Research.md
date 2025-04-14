@@ -31,3 +31,12 @@ sLLM이 생성한 데이터가 어색한지 여부를 판단하는 Metric 있을
 > [Evaluating Open-Domain Question Answering in the Era of Large Language Models](https://arxiv.org/abs/2305.06984) 논문 보면 좋을 듯
 > 
 
+
+
+# self-correction 키워드
+
+self-correction 키워드로 찾으면 어떨지?
+
+SCoRE google deepmind
+- 기존 연구는 prompt engineering, seperate "teacher" 에 의존
+- SCoRE는 LLM이 생성한 self correction traces를 이용.
