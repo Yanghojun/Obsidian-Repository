@@ -1,0 +1,7 @@
+#!/bin/bash
+yum update -y
+yum install httpd -y
+systemctl enable httpd.service
+systemctl start httpd.service
+cd /var/www/html
+echo "안녕하세요. AWS EC2 입니다. $(hostname -f)"  >  index.html
