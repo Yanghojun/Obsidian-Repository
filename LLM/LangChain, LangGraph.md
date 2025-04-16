@@ -30,6 +30,8 @@ chatbot에서 state에 값을 담고, route_tools 함수에서, state값을 보�
 
 # 발생하는 에러 정리
 ```
-return {"messages": [result]}
+return {"messages": [result]}   # 에러 발생
+
+# 직접 state["messages"].append(result)를 하면 에러 안남..
 ```
 langgraph에서 with_structured_output으로 출력한 결과를 result로 넣으면 에러남.
