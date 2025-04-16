@@ -28,3 +28,8 @@ chatbot에서 state에 값을 담고, route_tools 함수에서, state값을 보�
 `responseformat`: qwen2.5는 되는데, gemma3는 안됨.
 현재는 gemma3로 dict 반환하게 해서 사용 중.
 
+# 발생하는 에러 정리
+```
+return {"messages": [result]}
+```
+langgraph에서 with_structured_output으로 출력한 결과를 result로 넣으면 에러남.
