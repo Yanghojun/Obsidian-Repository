@@ -17,7 +17,13 @@ for chunk in graph.stream(inputs, configs, stream_mode="updates"):
 
 두개 차이가 뭐지..?
 
-
+# conditional_edges
+```python
+# `tools_condition` 함수는 챗봇이 도구 사용을 요청하면 "tools"를 반환하고, 직접 응답이 가능한 경우 "END"를 반환 
+graph_builder.add_conditional_edges( source="chatbot", path=route_tools, # route_tools 의 반환값이 "tools" 인 경우 "tools" 노드로, 그렇지 않으면 END 노드로 라우팅 
+path_map={"tools": "tools", END: END}, )
+```
+chatbot에서 state에 값을 담고, route_tools 함수에서, state값을 보면서 어디로 보낼지 string으로 반환.
 # create_react_agent
 `responseformat`: qwen2.5는 되는데, gemma3는 안됨.
 현재는 gemma3로 dict 반환하게 해서 사용 중.
