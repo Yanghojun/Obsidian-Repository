@@ -3,4 +3,4 @@
 $x^2, cos(x), tan(x)$등 모든 함수 표현 가능
 
 - 증명
-	- 
+	- 혁펜하임 깍두기 강의 참고 -> https://www.youtube.com/watch?v=krjNFvN3_8Q&list=PL_iJu012NOxdw1jc3KEo8Mq5oD5SXKhLu&index=25
