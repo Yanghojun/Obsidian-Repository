@@ -38,3 +38,9 @@ return {"messages": [result]}   # 에러 발생
 langgraph에서 with_structured_output으로 출력한 결과를 result로 넣으면 에러남.
 
 값 update의 경우 리스트면 append 통해서 업데이트 가능. 그러나, 단순값을 업데이트하는거면 state를 return 해야함.
+
+
+# 경험적으로 해야하는 것
+## structured_output에 관해
+- "어시스턴트가 생성한 답변", "어시스턴트가 선택한 정책" 등 어시스턴트라는 말을 붙여줘야 잘 알아들음. 시스템 프롬프트에 '검수자' 같은 표현을 쓰면 BaseModel 클래스에서도 '검수자가 생성한 답변' 이라고 해야 잘 알아들을 것 같은데, 그렇지 않음.
+
