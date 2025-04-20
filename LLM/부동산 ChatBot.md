@@ -19,7 +19,7 @@ send 함수가 내 요약 LLM과 어떻게 통신하는지 확인할 것.
 - 본 튜토리얼은 Tool 제공에 집중한 MCP 튜토리얼이다.
 
 uv로 기본적인 환경 구성을 한다.
-windows claude desktop app에서 내가 만든 Tool을 claude LLM
+windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사용 후 답변을 생성하는걸 볼 수 있다.
 
 
 
