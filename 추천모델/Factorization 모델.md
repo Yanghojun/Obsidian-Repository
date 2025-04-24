@@ -1,3 +1,5 @@
+| 참고: https://velog.io/@kida/FM-Factorization-Machine
+
 SVM이 Sparse한 고차원 데이터에 약하자, 해결하기 위해 나온 모델
 
 ![[Pasted image 20250425023059.png]]
