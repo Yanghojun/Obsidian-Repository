@@ -142,6 +142,25 @@ f()
 {}
 ```
 
+- 주로 사용하는 방법
+	- config 파일을 load 해서 dictionary 형태가 되게 하고, 아래와 같은 클래스를 config 파일 이용해서 호출할 때!
+```python
+# config.yaml 파일
+trainer:
+  max_epochs: -1
+  val_check_interval: 0.5
+  accelerator: gpu
+  devices: [1] # [0,1]
+  accumulate_grad_batches: 4
+  num_sanity_val_steps: 0
+  log_every_n_steps: 1000
+```
+
+```python
+_class_lightning.pytorch.trainer.trainer.Trainer(_*_, _accelerator='auto'_, _strategy='auto'_, _devices='auto'_, _num_nodes=1_, _precision=None_, _logger=None_, _callbacks=None_, _fast_dev_run=False_, _max_epochs=None_, _min_epochs=None_, _max_steps=-1_, _min_steps=None_, _max_time=None_, _limit_train_batches=None_, _limit_val_batches=None_, _limit_test_batches=None_, _limit_predict_batches=None_, _overfit_batches=0.0_, _val_check_interval=None_, _check_val_every_n_epoch=1_, _num_sanity_val_steps=None_, _log_every_n_steps=None_, _enable_checkpointing=None_, _enable_progress_bar=None_, _enable_model_summary=None_, _accumulate_grad_batches=1_, _gradient_clip_val=None_, _gradient_clip_algorithm=None_, _deterministic=None_, _benchmark=None_, _inference_mode=True_, _use_distributed_sampler=True_, _profiler=None_, _detect_anomaly=False_, _barebones=False_, _plugins=None_, _sync_batchnorm=False_, _reload_dataloaders_every_n_epochs=0_, _default_root_dir=None_, _model_registry=None_)
+
+Trainer(_max_epochs=10, **cfg["trainer"])  # 이와 같은 방식으로 호출 가능
+```
 # getattr
 - 활용1: 속성 접근
 - 활용2: 객체 초기화
