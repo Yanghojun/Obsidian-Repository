@@ -2,5 +2,7 @@
   "promptDelete": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "files",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showLineNumber": false,
+  "readableLineLength": false
 }
