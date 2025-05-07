@@ -4,3 +4,5 @@
 	논문으로 복잡하게 설명되어 있는데, 이해하려면 시간이 좀 걸릴 것. 코드도 없음
 
 RankNet을 어떻게 활용하는가?
+	$s_{base}$로 overall semantic score
+	$s_{TCL}$로 용어 특화 score
