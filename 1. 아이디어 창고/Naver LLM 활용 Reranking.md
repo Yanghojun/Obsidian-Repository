@@ -7,4 +7,5 @@ RankNet을 어떻게 활용하는가?
 	$s_{base}$로 overall semantic score
 	$s_{TCL}$로 용어 특화 score
 	Label 구성은 어떻게 한거지?
-		
+		HCX-L로 쿼리와 관련있는 50개 문서에 대한 ranking score 매김.
+		Q. 이미 ranking score를 매겼는데 이를 ranknet으로 다시 학습시키는 이유는?
