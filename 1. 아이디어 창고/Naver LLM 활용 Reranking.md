@@ -8,5 +8,12 @@ RankNet을 어떻게 활용하는가?
 	$s_{base}$로 overall semantic score
 	$s_{TCL}$로 용어 특화 score
 	Label 구성은 어떻게 한거지?
+		RankNet을 활용한 학습 방법 요약
+			1. Query + 후보 답변 N개 생성
+			2. LLM을 이용해 후보들에 대해 Pairwise 비교 라벨 생성
+				- A문서가 B문서보다 연관도가 높은 문서라면 데이터 구성 -> (A문서, B문서 Label=1), (A문서, B문서, Label=0)
+			3. BERT 등의 모델에 pairwise 입력을 넣어 s_A, s_B (문장 임베딩) 생성
+			4. Cross Entropy Loss로 학습
+			5. 학습된 모델로 Rerank 수행
 		HCX-L로 쿼리와 관련있는 50개 문서에 대한 ranking score 매김.
 		Q. 이미 ranking score를 매겼는데 이를 ranknet으로 다시 학습시키는 이유는?
