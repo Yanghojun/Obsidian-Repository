@@ -6,3 +6,5 @@
 RankNet을 어떻게 활용하는가?
 	$s_{base}$로 overall semantic score
 	$s_{TCL}$로 용어 특화 score
+	Label 구성은 어떻게 한거지?
+		
