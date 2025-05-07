@@ -9,3 +9,9 @@
 - smithery.yaml
 	- 
 스미더리 공식 글: https://smithery.ai/docs/config
+
+
+# 배포 진행
+1. Dockerfile 만들기
+	1. 
+2. smithery.yaml 만들기
