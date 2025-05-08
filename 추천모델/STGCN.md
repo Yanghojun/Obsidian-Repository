@@ -12,4 +12,9 @@ Spatio Temporal: 시공간
 PeMSD7
 - 노드: 고속도로 센서
 - 노드간 연결: 실제 도로 간 연결
+	- 지하철 역 228개의 lat, lon 이용해서 adjacency matrix 구성
+	  ![[Pasted image 20250508105714.png]]
+	  도로 간 연결이라기 보단, 거리순으로 (228 * 228) matrix 만든게 이해는 잘 안감.
+	  연결을 거리순으로 추상화(?) 시킨듯
+
 ![[Pasted image 20250508102513.png]]
