@@ -17,4 +17,4 @@ PeMSD7
 	  도로 간 연결이라기 보단, 거리순으로 (228 * 228) matrix 만든게 이해는 잘 안감.
 	  연결을 거리순으로 추상화(?) 시킨듯
 
-![[Pasted image 20250508102513.png]]
+![[Pasted image 20250508102513.png]]> recast is crucial for ur- ban traffic control and guidance. Due to the high nonlinearity and complexity of traffic flow, tradi- tional methods cannot satisfy the requirements of mid-and-long term predic
