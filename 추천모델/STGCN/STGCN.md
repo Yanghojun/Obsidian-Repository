@@ -72,3 +72,5 @@ output = model(data)
 
 print("Output features:", output)
 ```
+
+- Temporal Gated-Conv: Time 정보를 shrink 하는 Layer
