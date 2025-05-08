@@ -10,7 +10,7 @@ Spatio Temporal: 시공간
 # 데이터 구성
 사용 데이터: PeMSD7
 PeMSD7
-- 노드: 고속도로 센서
+- 노드: 고속도로 센서 228개. (아마 지하철역에 센서가 붙어있는듯)
 - 노드간 연결: 실제 도로 간 연결
 	- 지하철 역 228개의 lat, lon 이용해서 adjacency matrix 구성
 	  ![[Pasted image 20250508105714.png]]
