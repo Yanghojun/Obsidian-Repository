@@ -17,4 +17,58 @@ PeMSD7
 	  도로 간 연결이라기 보단, 거리순으로 (228 * 228) matrix 만든게 이해는 잘 안감.
 	  연결을 거리순으로 추상화(?) 시킨듯
 
-![[Pasted image 20250508102513.png]]> recast is crucial for ur- ban traffic control and guidance. Due to the high nonlinearity and complexity of traffic flow, tradi- tional methods cannot satisfy the requirements of mid-and-long term predic
+![[Pasted image 20250508102513.png]]
+
+# 모델 해석
+![[Pasted image 20250508111756.png]]
+- Spatial Graph-Conv: 일반적인 GCN
+	- Node feature, Adjacency matrix 를 입력으로 받아서 연산 진행
+	  예시코드
+```python
+import torch
+import torch.nn.functional as F
+from torch_geometric.nn import GCNConv
+from torch_geometric.data import Data
+
+# 예시 데이터 생성
+# 노드 수
+num_nodes = 4
+# feature 수
+num_features = 2
+
+# 노드 특징 행렬 (4개의 노드, 2개의 특징)
+node_features = torch.tensor([[1, 2], 
+                              [2, 3], 
+                              [3, 4], 
+                              [4, 5]], dtype=torch.float)
+
+# 인접 행렬 (예: 4개의 노드 간의 연결)
+adjacency_matrix = torch.tensor([[0, 1, 1, 0], 
+                                  [1, 0, 1, 1], 
+                                  [1, 1, 0, 1], 
+                                  [0, 1, 1, 0]], dtype=torch.float)
+
+# 데이터 객체 생성
+edge_index = adjacency_matrix.nonzero(as_tuple=True)
+data = Data(x=node_features, edge_index=edge_index)
+
+# 그래프 컨볼루션 신경망 클래스 정의
+class GCN(torch.nn.Module):
+    def __init__(self):
+        super(GCN, self).__init__()
+        self.conv1 = GCNConv(num_features, 4)  # 첫 번째 그래프 컨볼루션 레이어
+        self.conv2 = GCNConv(4, 2)              # 두 번째 그래프 컨볼루션 레이어
+
+    def forward(self, data):
+        x, edge_index = data.x, data.edge_index
+        x = self.conv1(x, edge_index)
+        x = F.relu(x)
+        x = self.conv2(x, edge_index)
+        return x
+
+# 모델 초기화 및 데이터 통과
+model = GCN()
+output = model(data)
+
+print("Output features:", output)
+```
