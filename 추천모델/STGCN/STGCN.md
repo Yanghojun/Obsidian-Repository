@@ -18,10 +18,11 @@ PeMSD7
 	  도로를 기준으로 1, 0 으로 연결시켜놓고, 거리로 weight를 준 걸로 받아들여야 할 듯.
 
 ![[Pasted image 20250508102513.png]]
-
+위 그림에서 SVM, ARIMA 같은 모델은 왼쪽 테이블 데이터(각 센서 별 time 정보) 사용하는것.
+본 모델은 Graph 기반 모델이기에 각 센서가 연결된 **spatial 정보**도 사용.
 # 모델 해석
 ![[Pasted image 20250508111756.png]]
-- Spatial Graph-Conv: 일반적인 GCN
+- Spatial Graph-Conv: 일반적인 GCN -> 노드 feature에 대한 representation을 만드는 Weight를 얻는다!
 	- Node feature, Adjacency matrix 를 입력으로 받아서 연산 진행
 	  예시코드
 ```python
