@@ -83,4 +83,4 @@ print("Output features:", output)
 # TODO.
 노트북 STGCN에 코드 주석, Zotero에 tensor shape 적어둠
 - Spatial GCN이 torch.einsum으로 구현되는데, 이 부분 그냥 넘김. 공부 필요
-- 
+- 논문 빠삭하게 읽으면서, 수식 이해할 필요 있음. 코드 이해는 어느정도 됐으니 좀더 수월할 것.
