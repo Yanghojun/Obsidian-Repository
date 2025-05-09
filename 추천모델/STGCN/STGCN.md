@@ -77,3 +77,10 @@ print("Output features:", output)
 ```
 
 - Temporal Gated-Conv: Time 정보를 shrink 하는 Layer
+
+
+
+# TODO.
+노트북 STGCN에 코드 주석, Zotero에 tensor shape 적어둠
+- Spatial GCN이 torch.einsum으로 구현되는데, 이 부분 그냥 넘김. 공부 필요
+- 
