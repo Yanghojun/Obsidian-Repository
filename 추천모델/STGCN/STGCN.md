@@ -9,6 +9,12 @@ Spatio Temporal: 시공간
 
 통행량 예측하는 모델.
 도로는 graph 형태로 되어있으니 graph 쓴다.
+
+# 기본 지식
+Graph에서 채널 의미
+- 노드 feature의 차원 수
+
+입력 채널이 1인 데이터를 GCN에 넣는다 -> 노드 벡터의 차원이 1이다.
 # 데이터 구성
 사용 데이터: PeMSD7
 PeMSD7
