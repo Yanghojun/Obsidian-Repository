@@ -2,6 +2,9 @@
 
 ![[Pasted image 20250509013350.png]]
 
-1. `uv init mytest` - 프로젝트 초기화
-	- mytest dir 생성 및 그 이하에 각종 환경 파일이 생성됌
-2. `uv add <패키지이름>` - 패키지 설치
+1. `uv init` - 프로젝트 초기화
+	- 각종 환경 파일 생성됌
+2. `uv venv` - 가상환경 생성
+3. `.venv\Scripts\Activates` - 가상환경 실행
+4. `uv add <패키지이름>` - 패키지 설치
+5. `uv run <모듈>` - 현재 가상환경에서 코드 실행

@@ -1,12 +1,20 @@
 [논문리뷰영상](https://www.youtube.com/watch?v=R8s5Kh5eKm8&t=1149s)
 [코드](https://github.com/VeritasYin/STGCN_IJCAI-18/tree/master)
 
+Zotero STGCN 논문에 정리해둠.
+
 Spatio Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting
 
 Spatio Temporal: 시공간
 
 통행량 예측하는 모델.
 도로는 graph 형태로 되어있으니 graph 쓴다.
+
+# 기본 지식
+Graph에서 채널 의미
+- 노드 feature의 차원 수
+
+입력 채널이 1인 데이터를 GCN에 넣는다 -> 노드 벡터의 차원이 1이다.
 # 데이터 구성
 사용 데이터: PeMSD7
 PeMSD7
@@ -75,29 +83,10 @@ print("Output features:", output)
 ```
 
 - Temporal Gated-Conv: Time 정보를 shrink 하는 Layer
-	- 1D Conv 개념
-		- 3가지 값을 측정하는 3차원 dim, 하루에 24번 측정해서 (3, 24) 형태의 matrix
-		  k=3, channel=32인 1D Conv 적용을 적용하고 싶다고 하자.
-		  Time Shrink를 해야하므로 값에 대한 차원은 축소되지 않게 한다.
-		  1D Conv를 시간축으로 sliding 시킨다.
-		  [[인스톨 파이토치#1D Conv]] 참고
-	- 출력 Tensor
-	  이 Layer를 통과하면 $R^{M(time) \times n(sensor) \times feature}$ 인 Tensor가 나옴.![[Pasted image 20250509134235.png]]
-	  각 센서 별로 Time shrink된 feature vector를 갖게 된다.
-	  1D Conv를 위 그림예시대로 적용해보면 `in_channels` = 4, `out_channels` = 3 으로 적용한것.
-	  
-	  **N 센서 수는 그대로인 점을 주목**
-	  
-	  ![[Pasted image 20250509134812.png]]
-	  이제 위 그림처럼 센서축을 Time 축으로 변경하면, 센서 별 feature vector를 볼 수 있다.
-	  **이게 GCN의 Node Feature가 됀다!**
-	  
 
-자 이제 ST-Conv Block의 전체 과정을 보자.
-1. Temporal Gated Conv: Time shrink 된 feature vector를 얻는다.
-![[Pasted image 20250509134235.png]]
-![[Pasted image 20250509134812.png]]
-2. 각 센서의 feature vector를 node feature로 설정하고 GCN을 태운다.
-   각 time 시점에서의 GCN은 모두 동일한 layer를 사용했다고 함.
-   이미 time shrink는 1. 과정에서 진행해서 그런 것 같음.
-   ![[Pasted image 20250509135755.png]]
+
+
+# TODO.
+노트북 STGCN에 코드 주석, Zotero에 tensor shape 적어둠
+- Spatial GCN이 torch.einsum으로 구현되는데, 이 부분 그냥 넘김. 공부 필요
+- 논문 빠삭하게 읽으면서, 수식 이해할 필요 있음. 코드 이해는 어느정도 됐으니 좀더 수월할 것.
