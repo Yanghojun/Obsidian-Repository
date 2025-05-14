@@ -6,3 +6,9 @@
 
 그러나 아직도 이웃 정보가 너무 많아서 explosion 되는 문제 해결중. (출처. 2024 Linear-Time Graph Neural Networks for Scalable Recommendations)
 이것때문에 GNN 기반 추천 시스템이 challenge 상태.
+
+
+# GHRS: Graph-based Hybrid Recommendation System with
+- CF 기반 연구는 user - item interaction에 집중하기에 cold start에 약함
+- CBF (content based filtering)으로 user, item information을 활용해야함
+- CF, CBF를 결합한 Hybrid 방식 사용
