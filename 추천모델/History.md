@@ -12,3 +12,5 @@
 - CF 기반 연구는 user - item interaction에 집중하기에 cold start에 약함
 - CBF (content based filtering)으로 user, item information을 활용해야함
 - CF, CBF를 결합한 Hybrid 방식 사용
+	- ![[Pasted image 20250514173100.png]]
+	  user-item 연결로 뽑은 Feature, user side information(성별 같은)을 concat. (combined Features 확인)
