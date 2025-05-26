@@ -6,4 +6,4 @@ Container 생성하면 그 컨테이너 내부의 eth0에 `172.17.0.2` 와 같�
 
 
 ![[Pasted image 20250526142935.png]]
-Default는 docker0
+Default는 docker0 (bridge network)
