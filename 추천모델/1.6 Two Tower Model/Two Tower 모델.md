@@ -18,7 +18,7 @@ Pretrained Embedding을 통한 유사도, 브랜드, 성별, 어떤 신발인지
 
 # 모델 구조 참고
 ![[Pasted image 20250603182531.png]]
-
+                                                     
 # 모델 구조
 ![[Pasted image 20250423235711.png]]
 - BI - Encoder
