@@ -147,4 +147,4 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 	  `pip install unstructured.pytesseract`
 
 # 추가 해결할 부분
-- 
+- https://github.com/JoshuaC215/agent-service-toolkit 여기 참고해서 lifespan이 어떻게 활용되는지 확인하면 좋을 듯.
