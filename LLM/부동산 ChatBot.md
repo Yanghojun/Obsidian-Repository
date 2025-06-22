@@ -142,6 +142,6 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 ## 환경설정
 - windows
 	- poppler 설치 후 환경 변수 편집 `(C:\Users\HojunYang\Desktop\workspace\Projects\real-estate-agent\poppler-24.08.0\Library\bin)`, 
-	  pip install pdf2image
+	  `pip install pdf2image`
 	- Tesseract OCR 설치 후 환경 변수 편집
-	  
+	  `pip install unstructured.pytesseract`
