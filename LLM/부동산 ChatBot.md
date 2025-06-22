@@ -149,3 +149,5 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 # 추가 해결할 부분
 - https://github.com/JoshuaC215/agent-service-toolkit 여기 참고해서 lifespan이 어떻게 활용되는지 확인하면 좋을 듯.
 	- fastapi @asynccontextmanager 쓰는 방향으로
+- 한성이 코드 구현한 거 보자.
+	- 참고할 부분: 한성이껀 여러개 요청하는 query 1개 있으면 tool을 3번까지 호출해서 답변하고 있다.
