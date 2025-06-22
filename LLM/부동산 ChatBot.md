@@ -135,3 +135,6 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 	    mcp.run(transport='stdio')
 	```
 
+# Multi-Turn
+- 우리 Discord bot에서 multiturn 구현이 가능한 이유
+- `Memory Saver`를 통해 대화를 자동 저장하고, 이를 `thread_id`를 통해 새로운 langgraph에서 invoke 할 때 사용할 수 있다.
