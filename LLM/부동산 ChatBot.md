@@ -139,9 +139,12 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 - 우리 Discord bot에서 multiturn 구현이 가능한 이유
 - `Memory Saver`를 통해 대화를 자동 저장하고, 이를 `thread_id`를 통해 새로운 langgraph에서 invoke 할 때 사용할 수 있다.
 
-## 환경설정
+# 환경설정
 - windows
 	- poppler 설치 후 환경 변수 편집 `(C:\Users\HojunYang\Desktop\workspace\Projects\real-estate-agent\poppler-24.08.0\Library\bin)`, 
 	  `pip install pdf2image`
 	- Tesseract OCR 설치 후 환경 변수 편집
 	  `pip install unstructured.pytesseract`
+
+# 추가 해결할 부분
+- 
