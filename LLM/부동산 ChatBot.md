@@ -151,3 +151,4 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 	- fastapi @asynccontextmanager 쓰는 방향으로
 - 한성이 코드 구현한 거 보자.
 	- 참고할 부분: 한성이껀 여러개 요청하는 query 1개 있으면 tool을 3번까지 호출해서 답변하고 있다.
+	- 한성이 docker image: https://hub.docker.com/r/drepion/discord_mcp
