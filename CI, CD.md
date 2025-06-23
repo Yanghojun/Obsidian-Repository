@@ -3,3 +3,4 @@
 - 머지 시 자동으로 build, unit_test까지 진행한다.
 	- 이 과정이 통과가 안되면 개발자에게 Issue 날림.
 # CD(Continuous Deployment)
+.
