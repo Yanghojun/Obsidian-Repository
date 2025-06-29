@@ -161,3 +161,6 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 ![[Pasted image 20250629163411.png]]
 - 내 pdf_agent Tool 코드 내에서 추출된 ![[Pasted image 20250629163910.png]] 
   이 이미지에 대한 Token 수는 19000으로 16385 Token 초과.
+- https://docs.unstructured.io/open-source/core-functionality/partitioning#partition-pdf
+  위 사이트 보면서 partition_pdf 함수 제대로 써 보자.
+	- base64로 바로 인코딩해주는 것도 있음.
