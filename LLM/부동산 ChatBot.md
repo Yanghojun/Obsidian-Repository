@@ -159,3 +159,5 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 - 이미지 별 대략적 Token 수 확인
 - 4개 문자 (4 char) -> 1 Token
 ![[Pasted image 20250629163411.png]]
+- 내 pdf_agent Tool 코드 내에서 추출된 ![[Pasted image 20250629163910.png]] 
+  이 이미지에 대한 Token 수는 19000으로 16385 Token 초과.
