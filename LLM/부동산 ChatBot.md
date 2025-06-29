@@ -164,3 +164,5 @@ windows claude desktop app에서 내가 만든 Tool을 claude 3.7 sonnet 이 사
 - https://docs.unstructured.io/open-source/core-functionality/partitioning#partition-pdf
   위 사이트 보면서 partition_pdf 함수 제대로 써 보자.
 	- base64로 바로 인코딩해주는 것도 있음.
+
+- 한성이 docker는 8888로 연결하고 git clone 하면 됌. chrome 크롤링 되도록 되어있음
